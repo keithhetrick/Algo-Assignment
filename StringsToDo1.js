@@ -43,14 +43,12 @@ function getFirstLetters(str) {
     .toUpperCase();
   return firstLetters;
 }
-
 console.log(getFirstLetters(" there's no free lunch - gotta pay yer way."));
 // Expected result: TNFL-GPYW
 console.log(getFirstLetters("Live from New York, it's Saturday Night!"));
 // Expected result: LFNYISN
 
 // Count Non-Spaces
-
 function countNonSpaces1() {
   let str1 = "Honey pie, you are driving me crazy";
   console.log(str1.trim().length);
