@@ -99,7 +99,7 @@ function printArrayValsTwo(arr) {
 }
 printArrayValsTwo([1, 4, 0, 9, -3]);
 
-function printArrayValsThree(array) {
+function printArrayValsThree() {
   const ourArray = [1, 4, 0, 9, -3];
   let sum = 0;
   for (let i = 0; i < ourArray.length; i += 1) {
@@ -111,9 +111,8 @@ console.log(printArrayValsThree([1, 4, 0, 9, -3]));
 
 function printArrayValsFour(array) {
   let sum = 0;
-
-  array.forEach((item) => {
-    sum += item;
+  array.forEach((i) => {
+    sum += i;
   });
   console.log(sum);
   return sum;
@@ -122,8 +121,8 @@ printArrayValsFour([1, 4, 0, 9, -3]);
 
 function printArrayValsFive(array) {
   let sum = 0;
-  for (const item of array) {
-    sum += item;
+  for (const i of array) {
+    sum += i;
   }
   console.log(sum);
   return sum;
@@ -154,7 +153,7 @@ Analyze an array’s values and print the average.
 */
 const arr2 = [80, 5, 77, 22, 88, 95, 68, 3, 12];
 
-function printAverageOfArray() {
+function printAverageOfArrayOne() {
   let average = 0;
   for (let i = 0; i < arr2.length; i++) {
     let currentNum = arr2[i];
@@ -164,11 +163,11 @@ function printAverageOfArray() {
   console.log(average);
   return average;
 }
-printAverageOfArray();
+printAverageOfArrayOne();
 
 const arr3 = [80, 5, 77, 22, 88, 95, 68, 3, 12];
 
-function findAverageOne() {
+function printAverageOfArrayTwo() {
   let i = 0;
   let average = 0;
   while (i <= arr3.length) {
@@ -181,7 +180,7 @@ function findAverageOne() {
   console.log(average);
   return average;
 }
-findAverageOne();
+printAverageOfArrayTwo();
 
 // 7. Array with Odds - For & While Loops
 /*
