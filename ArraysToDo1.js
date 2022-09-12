@@ -104,3 +104,5 @@ function insertAtTwoAlt() {
 insertAtTwoAlt();
 console.log("insertAtTwoAlt : ", insertAtTwoAlt());
 // Expected result: [ 9, 42, 33, 7  ]
+
+// Remove At
